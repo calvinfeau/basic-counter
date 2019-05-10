@@ -1,6 +1,10 @@
+html, * {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
-    height: 100vh;
+    height: 60vh;
     flex-direction: column;
     justify-content: center;
     align-content: space-around;
@@ -14,33 +18,33 @@ h1 {
 
 section {
     display: flex;
-    width: 30vw;
-    height: 10vh;
     justify-content: space-around;
     align-content: center; 
     align-items: center; 
+    width: 30vw;
+    height: 15vh;
 }
 
 input {
+    width: 10vw;
     border: 3px solid #A9A9A9;
-    border-radius: 10%;
-    height: 7vh;
-    width: 8vw;
-    text-align: center;
-    font-size: 4vh;
 }
 
 button {
-    background-color: #A9A9A9;
-    color: white;
-    border-radius: 10%;
-    border: 0.5px solid #A9A9A9;
-    height: 7vh;
     width: 6vw;
-    font-size: 4vh;
+    color: white;
+    background-color: #A9A9A9;
+    border: 0.5px solid #A9A9A9;
+}
+
+input, button {
+    height: 6vh;
+    border-radius: 10%;
+    font-size: 3.5vh;
+    text-align: center;
 }
 
 button:hover {
-    background-color: white;
     color: #A9A9A9;
+    background-color: white;
 }
